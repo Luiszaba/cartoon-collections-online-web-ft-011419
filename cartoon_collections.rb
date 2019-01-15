@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
 planeteer_calls.each do |planeteer_call|
-  if planeteer_call.legnth == 4 
+  if planeteer_call.legnth < 4 
     true
   else 
     false
