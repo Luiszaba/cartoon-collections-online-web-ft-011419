@@ -6,13 +6,7 @@ end
 end
 
 def summon_captain_planet(captian_planet)
-  i=0
-  captian_planet =[]
-  if i < array.length
-    captian_planet << array[i]
-    i+=1
-  end
-  captian_planet
+
 end
 
 def long_planeteer_calls# code an argument here
