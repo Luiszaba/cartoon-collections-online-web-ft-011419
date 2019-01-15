@@ -15,7 +15,7 @@ planeteer_calls.each do |planeteer_call|
   if planeteer_call.legnth < 3
   end
     true
-  else 
+  end
     false
 end
 end
