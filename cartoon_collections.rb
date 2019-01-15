@@ -12,6 +12,7 @@ def summon_captain_planet(array)
     captian_planet << array[i]
     i+=1
   end
+  captian_planet
 end
 
 def long_planeteer_calls# code an argument here
