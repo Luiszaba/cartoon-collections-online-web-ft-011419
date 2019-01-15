@@ -11,7 +11,7 @@ elements
 end
 
 def long_planeteer_calls(planeteer_calls)
-planeteer_calls.any? do |planeteer_call| planeteer_call >=3
+planeteer_calls.any? do |planeteer_call| planeteer_call <= 3
 end
 end
 
