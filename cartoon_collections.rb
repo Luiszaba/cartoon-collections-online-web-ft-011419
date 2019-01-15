@@ -24,4 +24,4 @@ def find_the_cheese(cheese_products)
     cheese_products.include?(cheese_types)
     i+=1
 end
-
+end
