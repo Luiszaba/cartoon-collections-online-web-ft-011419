@@ -6,7 +6,9 @@ end
 end
 
 def summon_captain_planet(elements)
-elements.map {|element| element.capitalize
+elements.map! {|element| element << element.capitalize + "!"}
+elements
+end
 end
 
 def long_planeteer_calls# code an argument here
