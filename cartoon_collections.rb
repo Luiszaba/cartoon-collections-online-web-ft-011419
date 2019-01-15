@@ -20,8 +20,6 @@ end
 def find_the_cheese(cheese_products)
   cheese_types = ["cheddar", "gouda", "camembert"]
 cheese_types.find do |cheese_products|
- if cheese_types.include?(cheese_products)
- end
-else 
+ cheese_types.include?(cheese_products)
 end
 end
