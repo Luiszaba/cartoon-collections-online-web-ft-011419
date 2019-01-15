@@ -11,7 +11,12 @@ elements
 end
 
 def long_planeteer_calls(planeteer_calls)
-planeteer_calls.any? |planeteer_call| planeteer_call.length <= 3
+planeteer_calls.any? |planeteer_call| 
+if planeteer_call.length <= 3
+  true
+else
+  false
+end
 end
 
 
