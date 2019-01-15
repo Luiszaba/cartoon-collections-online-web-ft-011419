@@ -18,8 +18,8 @@ end
 
 
 def find_the_cheese(cheese_products)
-  cheese_types = %w["cheddar", "gouda", "camembert"]
+  cheese_types = ["cheddar", "gouda", "camembert"]
 cheese_types.each do |cheese_products|
-  cheese_products.include?(cheese_types)
+  cheese_types.include?(cheese_products)
 end
 end
