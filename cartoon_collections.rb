@@ -1,4 +1,5 @@
-def roll_call_dwarves(# code an argument here)
+def roll_call_dwarves(dwarfs)
+  dwarfs = 
   i=0
   
 end
