@@ -11,14 +11,7 @@ elements
 end
 
 def long_planeteer_calls(planeteer_calls)
-planeteer_calls.each do |planeteer_call|
-  if planeteer_call.length <= 3
-  end
-    true
-  end
-    false
-end
-
+planeteer_calls.any? do |planeteer_call|
 
 def find_the_cheese# code an argument here
   # the array below is here to help
