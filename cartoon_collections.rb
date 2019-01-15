@@ -12,9 +12,7 @@ end
 
 
 def long_planeteer_calls(calls)
-if calls.length <= 3
-  true
-end
+calls.any? |call| call.legnth <=3
 end
 
 
