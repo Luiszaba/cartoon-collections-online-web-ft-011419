@@ -11,7 +11,7 @@ elements
 end
 
 def long_planeteer_calls(planeteer_calls)
-
+planeteer_calls.any? {|planeteer_call| planeteer_calls <= 3}
 end
 end
 
