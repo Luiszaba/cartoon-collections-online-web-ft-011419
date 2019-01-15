@@ -22,5 +22,5 @@ def find_the_cheese(cheese_products)
  if cheese_types.find do |cheese_products|
  cheese_types.include?(cheese_products)
 end
-end
+end.flatten
 end
