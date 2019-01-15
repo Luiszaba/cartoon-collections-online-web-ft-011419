@@ -11,7 +11,7 @@ elements
 end
 
 def long_planeteer_calls(planeteer_calls)
-planeteer_calls {planeteer_call.length < 4 :> 4}
+
 end
 end
 
